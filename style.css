@@ -9,7 +9,7 @@
     font-optical-sizing: auto;
 }
 
-/* Shared style */
+/* All btn style */
 .btn {
     background-color: #469165;
     padding: 12px 16px;
@@ -52,6 +52,11 @@
     cursor: pointer;
 }
 
+.banner-content .btn-container .btn-flex {
+    display: flex;
+    align-items: center;
+}
+
 /* Main Style */
 nav {
     display: flex;
@@ -82,6 +87,7 @@ nav {
 }
 
 /* banner section is here */
+
 #banner {
     display: flex;
     padding-top: 115px;
@@ -167,7 +173,10 @@ nav {
     width: 332px;
     padding: 35px 30px;
     box-shadow: 10px 10px 20px rgb(210, 209, 209);
+}
 
+.note-container .note-card .card:hover {
+    background-color: #c9e2ff;
 }
 
 
@@ -190,4 +199,58 @@ nav {
     font-weight: 500;
     color: #627382;
     margin-bottom: 16px;
+}
+
+/* Brain section  */
+#brain {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#brain .brain-container {
+    max-width: 1360px;
+    margin: 60px auto;
+    border: 1px solid black;
+    display: flex;
+    gap: 60px;
+}
+
+.brain-container .brain-details {
+    padding-top: 102px;
+    padding-bottom: 102px;
+    padding-right: 150px;
+    text-align: left;
+}
+
+.brain-container .brain-details h6 {
+    color: #469165;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.brain-container .brain-details h3 {
+    font-size: 48px;
+    color: #001931;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.brain-container .brain-details .description {
+    font-size: 16px;
+    color: #627382;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.brain-container .tips {
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+
 }
