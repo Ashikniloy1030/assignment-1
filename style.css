@@ -213,7 +213,6 @@ nav {
 #brain .brain-container {
     max-width: 1360px;
     margin: 60px auto;
-    border: 1px solid black;
     display: flex;
     gap: 60px;
 }
@@ -230,7 +229,7 @@ nav {
     line-height: 20px;
     font-weight: 500;
     margin-bottom: 16px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .brain-container .brain-details h3 {
@@ -250,7 +249,10 @@ nav {
 
 .brain-container .tips {
     line-height: 35px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
 }
