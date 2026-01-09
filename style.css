@@ -19,6 +19,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    /* display: flex; */
 }
 
 .btn:hover {
@@ -255,4 +256,108 @@ nav {
     align-items: center;
     gap: 10px;
 
+}
+
+/* Challange part */
+#challange {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#challange .challange-accept {
+    max-width: 1360px;
+    margin: 60px auto;
+    gap: 60px;
+    padding: 0 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.challange-accept h3 {
+    font-size: 40px;
+    color: #001931;
+    margin-bottom: 18px;
+}
+
+.challange-accept p {
+    font-size: 16px;
+    color: #627382;
+    line-height: 18px;
+    margin-bottom: 25px;
+}
+
+.challange-accept .last-button {
+    display: flex;
+    justify-content: center;
+}
+
+.challange-accept .btn-last {
+    display: flex;
+    margin-bottom: 25px;
+    gap: 8px;
+}
+
+
+/* footer style */
+
+footer {
+    background: #180125;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    margin: auto;
+
+}
+
+.footer-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    padding: 120px 200px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* border: 3px solid rgb(255, 255, 255); */
+}
+
+.footer-container h5 {
+    color: #FFFFFF;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.footer-container .icon {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-container .icon i {
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.footer-container .last {
+    padding: 30px 20px;
+}
+
+footer hr {
+    border: 1px solid rgb(248, 214, 214);
+    max-width: 1360px;
+    margin: 3px auto;
+
+
+}
+
+footer .last-p {
+    padding-bottom: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+footer .last-p p {
+    font-size: 20px;
+    color: #c9e2ff;
 }
